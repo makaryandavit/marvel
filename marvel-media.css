@@ -1,0 +1,495 @@
+@media all and (min-width: 300px) and (max-width:780px){
+    .header-2{
+        display: none;
+    }
+
+    .header-1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .signin{
+        display: none;
+    }
+
+    .search-text{
+        display: none;
+    }
+
+    .search-icon{
+        border: none;
+    }
+
+    .search-marvel{
+        width: 50px;
+    }
+
+    .dropdown{
+        display: inline-block;
+    }
+
+    .swiper{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+
+    .swiper-main{
+        display: none;
+    }
+
+    .follow{
+        color: gray;
+        font-size: 25px;
+        display: block;
+    }
+
+    .reklam-1{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .reklam-img{
+        width: 80%;
+    }
+
+    .mimg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .under-reklam{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .undr{
+        width: 100%;
+        height: 450px;
+    }
+    .under-reklam-left{
+        background-color: #151515;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .haw-btn{
+        margin-left: 5px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-btn{
+        margin-bottom: 5px;
+    }
+    .hawkeye {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .haw-text{
+        text-align: center;
+    }
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+    .main-text-title{
+        text-align: center;
+    }
+    .main-text-text{
+        text-align: center;
+    }
+    .first-four-inside{
+        width: 100%;
+        height: 270px;
+        /* margin-bottom: 100px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        /* padding: 20px; */
+        text-align: center;
+    }
+    .first-inside,.second-inside{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .thirth-inside,.forth-inside{
+        display: none;
+    }
+    .under-reklam-left::after{
+        content: '';
+        display: none;
+    }
+    .create{
+        margin: 15px 0;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .big-white{
+        width: 100%;
+        height: 3000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .big-white-inside{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .big-left,.big-right{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .big-left{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .big-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .big-top{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .big-bottom{
+        width: 100%;
+        height: 65%;
+        margin-top: 50px;
+        background-image: url(images/reklam\ uxix.jfif);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .hi{
+        display: none;
+    }
+
+        
+    .bg-title{
+        color: gray;
+        font-size: 13px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .bg-text{
+        font-size: 15px;
+        color: black;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .date{
+        font-size: 13px;
+        color: gray;
+        font-weight: bold;
+        display: none;
+    }
+
+    .big-top-box-right{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .video-part-bottom{
+        display: none;
+    }
+
+    .video-part-top{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-part-collect{
+        width: 100%;
+        height: 20%;
+        overflow-x: scroll;
+        white-space: nowrap;
+        padding-left: 0;
+        padding-top: 5px;
+    }
+
+    .video-part-inside{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video-col{
+        width: 50%;
+        height: 90%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter:  grayscale(1);
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .video-part-video{
+        width: 100%;
+        height: 80%;
+        background-image: url(images/videonkar.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .video-part-collect::-webkit-scrollbar{
+        background: rgb(238, 238, 238);
+        height:  5px;
+    }
+
+    .verj{
+        width: 100%;
+        height: 800px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .verj-left{
+        width: 100%;
+        height: 50%;
+        background-image: url(images/marvel_insider_master.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+    }
+    
+    .verj-right{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .footer-top{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        width: 100%;
+        height: 800px;
+        /* height: auto; */
+        background-color: #151515;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+
+        
+    .footer-top{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-bottom{
+        width: 80%;
+        height: 20%;
+    }
+
+    .foot-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgb(176, 176, 176);
+        margin-bottom: 15px;
+    }
+
+    .fb5{
+        display: flex;
+    }
+
+    .ee{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    .fb1{
+        background-image: url(images/M.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .fb2{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly;     */
+    }
+
+    .fb2-text{
+        padding-bottom: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .fb3-text{
+        padding-bottom: 15px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .fb4-top{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fb4-top-left{
+        width: 100%;
+        height: 100%;
+        background-image: url(images/wwwww.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .fb4-top-right,.fb4-bottom-right{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fb4-bottom{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fb4-text{
+        color: white;
+        font-weight: bold;
+    }
+
+    .fb4-text2{
+        color: white;
+        font-size: 14px;
+    }
+
+    .fb4-bottom-left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/um.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .um{
+        width: 10%;
+    }
+
+    
+
+    .fb-text{
+        color: white;
+        font-weight: bold;
+    }
+
+    .verjicon{
+        font-size: 19px;
+        padding-top: 20px;
+    }
+}
